@@ -1,4 +1,4 @@
-let allElementsSampleClass = document.querySelector('*[class="sample_class"]'); // 1
+let allElementsSampleClass = document.querySelectorAll('*[class="sample_class"]'); // 1
 
 function getTagsOfElements(elements) {
     var tab = [];
@@ -15,7 +15,6 @@ console.log(getTagsOfElements(allElementsSampleClass));
 
 ////// ZADANIE 2
 var sampleId = document.getElementById('sample_id');
-console.log(sampleId);
 
 function getClassesOfElement(element) {
     return element.className.split(' ');

@@ -25,4 +25,4 @@ function bigestSumOfTwoElements(array) {
     return fMax+lastMax;
 }
 
-console.log(bigestSumOfTwoElements([]));
+console.log(bigestSumOfTwoElements([76]));
